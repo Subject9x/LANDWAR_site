@@ -1,0 +1,11 @@
+/*
+  LANDWAR website
+
+  FAQ Page
+    Needed to play
+
+    Setup game
+
+    
+
+*/
