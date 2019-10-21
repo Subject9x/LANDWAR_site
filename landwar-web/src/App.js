@@ -5,6 +5,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
 
 import LandingPage from './components/main/LandingPage.js';
+import PageDownloads from './components/pageDownloads/DownloadsPage.js';
 /*
 LANDWAR website
 author: Peter Roohr
@@ -17,11 +18,11 @@ const Routing= (props) =>{
   <Router history={history} >
       <Switch>
           <Route path="/" exact component={LandingPage}/>
+          <Route path="/downloads" exact component={PageDownloads}/>
       </Switch>
   </Router>
   );
 }
-
 
 class App extends Component {
   render(){

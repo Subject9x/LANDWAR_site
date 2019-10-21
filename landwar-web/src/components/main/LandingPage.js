@@ -10,11 +10,6 @@ import NavHeader from './NavHeader.js';
     banner image
     link to current version docs
     short description
-    navigation buttons
-      About
-      FAQ
-      Downloads
-      Unit Builder -> external link? internal module
 */
 
 class LandingPage extends Component{
@@ -26,6 +21,21 @@ class LandingPage extends Component{
     return(
     <Container fluid={true}>
       <NavHeader />
+      <Row>
+        &nbsp;
+      </Row>
+      <Row>
+        &nbsp;
+      </Row>
+      <Row className="justify-content-md-center">
+        <Col md={{size:10}}><b><h3><i>LANDWAR:</i> an open-source approach to tabletop wargaming!</h3></b></Col>
+      </Row>
+      <Row className="justify-content-md-center">
+        <Col md={{size:10}}><img className="img-fluid" src="..." alt="..."/>TODO-banner image</Col>
+      </Row>
+      <Row>
+        <Col md={{size:10}}></Col>
+      </Row>
     </Container>
     );
   }
