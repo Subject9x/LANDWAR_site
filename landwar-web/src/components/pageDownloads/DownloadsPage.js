@@ -25,11 +25,19 @@ class PageDownloads extends Component{
       <Row>
         &nbsp;
       </Row>
-      <Row className="justify-content-md-center">
+      <Row>
+        &nbsp;
+      </Row>
+      <Row>
+        &nbsp;
+      </Row>
+      <Row >
         <DownloadItem colSize={4} url="TODO-link" title="TODO-link" cardText={<p>Everything you need to begin playing games of <i>LANDWAR</i>. The core rules </p>}/>
         <DownloadItem colSize={4} url="TODO-link" title="TODO-link" cardText={<p>TAG Compendium is a small expansion of the main rulebook. TAGs are special rules that you can use on game units
           to give these units more flavor and uniqueness.
         </p>}/>
+        <DownloadItem colSize={4} url="TODO-link" title="TODO-link" cardText={<p>Unit Card Template; print and fill these out to better organize your LANDWAR strike force.</p>} />
+        <DownloadItem colSize={4} url="TODO-link" title="TODO-link" cardText={<p>Combat Operations; a small list of fun scenarios.</p>} />
       </Row>
     </Container>
     );

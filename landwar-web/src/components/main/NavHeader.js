@@ -12,7 +12,7 @@ import {Link} from 'react-router-dom';
 class NavHeader extends Component{
 
   render(){
-    return(
+    return(<>
     <Row>
       <Col md={{size:12}}>
         <Container id='fixed-top' fixed='top' className="container-fluid">
@@ -39,6 +39,16 @@ class NavHeader extends Component{
         </Container>
       </Col>
     </Row>
+    <Row>
+      &nbsp;
+    </Row>
+    <Row>
+      &nbsp;
+    </Row>
+    <Row>
+      &nbsp;
+    </Row>
+      </>
     );
   }
 }
