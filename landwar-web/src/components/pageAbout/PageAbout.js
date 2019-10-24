@@ -3,13 +3,8 @@ import {Container, Row, Col} from 'reactstrap';
 
 import NavHeader from '../main/NavHeader.js';
 /*
-  LANDWAR website
-
-  About Page
-    What is game
-    
-    Dev history?
-
+LANDWAR website
+Page: About
 */
 
 class PageAbout extends Component{

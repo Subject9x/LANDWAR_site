@@ -3,6 +3,10 @@ import {Container, Row, Col} from 'reactstrap';
 
 import NavHeader from '../main/NavHeader.js';
 
+/*
+LANDWAR website
+Page: Media
+*/
 
 class PageMedia extends Component{
 

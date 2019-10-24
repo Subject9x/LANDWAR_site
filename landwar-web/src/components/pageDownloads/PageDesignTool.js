@@ -4,6 +4,11 @@ import {Container, Row, Col} from 'reactstrap';
 import NavHeader from '../main/NavHeader.js';
 
 
+/*
+LANDWAR website
+Page: Design Tool
+*/
+
 class PageDesignTool extends Component{
 
   render(){

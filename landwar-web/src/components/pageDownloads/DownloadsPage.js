@@ -3,14 +3,13 @@ import {Container, Col, Row, Card, CardTitle, CardBody} from 'reactstrap';
 
 import NavHeader from '../main/NavHeader.js';
 /*
-  LANDWAR website
-
-  Download Page
-    Core Rules
-    Quickplay Sheet
-    Tokens Doc
-    FAQ Sheet
-    Past Rulebooks
+LANDWAR website
+Page: Downloads
+  Core Rules
+  Quickplay Sheet
+  Tokens Doc
+  FAQ Sheet
+  Past Rulebooks
 */
 
 class PageDownloads extends Component{

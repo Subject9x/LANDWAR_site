@@ -3,13 +3,12 @@ import {Container, Col, Row} from 'reactstrap';
 
 import NavHeader from './NavHeader.js';
 /*
-  LANDWAR website
-
-  Landing Page
-    title
-    banner image
-    link to current version docs
-    short description
+LANDWAR website
+Page: Landing
+  title
+  banner image
+  link to current version docs
+  short description
 */
 
 class PageLanding extends Component{
