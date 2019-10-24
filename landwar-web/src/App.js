@@ -9,6 +9,7 @@ import PageDownloads from './components/pageDownloads/DownloadsPage.js';
 import PageAbout from './components/pageAbout/PageAbout.js';
 import PageFAQ from './components/pageFAQ/PageFAQ.js';
 import PageMedia from './components/media/PageMedia.js';
+import PageDesignTool from './components/pageDownloads/PageDesignTool.js';
 /*
 LANDWAR website
 author: Peter Roohr
@@ -25,6 +26,7 @@ const Routing= (props) =>{
           <Route path="/about" exact component={PageAbout} />
           <Route path="/faq" exact component={PageFAQ} />
           <Route path="/media" exact component={PageMedia} />
+          <Route path="/unitdesign" exact component={PageDesignTool}/>
       </Switch>
   </Router>
   );

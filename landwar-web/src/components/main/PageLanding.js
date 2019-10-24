@@ -13,10 +13,6 @@ import NavHeader from './NavHeader.js';
 */
 
 class PageLanding extends Component{
-  constructor(props){
-    super(props);
-  }
-
   render(){
     return(
     <Container fluid={true}>

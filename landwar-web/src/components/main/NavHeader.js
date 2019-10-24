@@ -19,21 +19,12 @@ class NavHeader extends Component{
             <Navbar color="secondary" light fixed='top' expand="md">
                 <NavbarBrand href="/">LANDWAR</NavbarBrand>
                 <Nav className="ml-auto" navbar>
-                    <NavItem>
-                        <Link to="/"><Button>Home</Button></Link>
-                    </NavItem>
-                    <NavItem>
-                        <Link to="/about"><Button>About</Button></Link>
-                    </NavItem>
-                    <NavItem>
-                        <Link to="/faq"><Button>FAQ</Button></Link> 
-                    </NavItem>
-                    <NavItem>
-                        <Link to="/downloads"><Button>Downloads</Button></Link>
-                    </NavItem>
-                    <NavItem>
-                        <Link to="/media"><Button>Media</Button></Link> 
-                    </NavItem>
+                    <NavItem><Link to="/"><Button>Home</Button></Link></NavItem>
+                    <NavItem><Link to="/about"><Button>About</Button></Link></NavItem>
+                    <NavItem><Link to="/faq"><Button>FAQ</Button></Link></NavItem>
+                    <NavItem><Link to="/downloads"><Button>Downloads</Button></Link></NavItem>
+                    <NavItem><Link to="/media"><Button>Media</Button></Link></NavItem>
+                    <NavItem><Link to="/unitdesign"><Button>Unit Tool</Button></Link></NavItem>
                 </Nav>
             </Navbar>
         </Container>

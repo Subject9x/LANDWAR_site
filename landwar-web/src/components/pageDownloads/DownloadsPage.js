@@ -20,13 +20,7 @@ class PageDownloads extends Component{
     <Container>
       <NavHeader />
       <Row>
-        &nbsp;
-      </Row>
-      <Row>
-        &nbsp;
-      </Row>
-      <Row>
-        &nbsp;
+        <h4><i>Downloads and Links</i></h4>
       </Row>
       <Row>
         &nbsp;
@@ -36,8 +30,12 @@ class PageDownloads extends Component{
         <DownloadItem colSize={4} url="TODO-link" title="TODO-link" cardText={<p>TAG Compendium is a small expansion of the main rulebook. TAGs are special rules that you can use on game units
           to give these units more flavor and uniqueness.
         </p>}/>
+        <DownloadItem colSize={4} url="TODO-link" title="TODO-link" cardText={<p>Unit Design Tool steps; if you do not want to use the online tool for making units, you can use these printed steps for creating stats for your units.</p>} />
         <DownloadItem colSize={4} url="TODO-link" title="TODO-link" cardText={<p>Unit Card Template; print and fill these out to better organize your LANDWAR strike force.</p>} />
         <DownloadItem colSize={4} url="TODO-link" title="TODO-link" cardText={<p>Combat Operations; a small list of fun scenarios.</p>} />
+        <DownloadItem colSize={4} url="TODO-link" title="TODO-link" cardText={<p>Unit Stats Example - WW2 tanks</p>} />
+        <DownloadItem colSize={4} url="TODO-link" title="TODO-link" cardText={<p>Unit Stats Example - Sci-Fi mechs</p>} />
+        <DownloadItem colSize={4} url="TODO-link" title="TODO-link" cardText={<p>Unit Stats Example - Kaiju</p>} />
       </Row>
     </Container>
     );
